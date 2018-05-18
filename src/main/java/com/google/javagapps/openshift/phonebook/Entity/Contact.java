@@ -1,5 +1,7 @@
 package com.google.javagapps.openshift.phonebook.Entity;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Objects;
@@ -18,6 +20,7 @@ public class Contact {
     private String telephoneNumber;
 
     @Column
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate birth;
 
     public long getId() {
