@@ -6,7 +6,7 @@
     <groupId>com.google.javagapps.openshift</groupId>
     <artifactId>openshift-deployment-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>openshift-deploy-test</name>
     <description>Testing deployment on openshift</description>
