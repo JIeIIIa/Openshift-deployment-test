@@ -13,10 +13,10 @@ public class OpenShiftDeployTestApplication {
     @Value("${MYSQL_SERVICE_PORT}")
     private String port;
 
-    @Value("${OPENSHIFT_MYSQL_USERNAME}")
+    @Value("${MYSQL_USER}")
     private String user;
 
-    @Value("${OPENSHIFT_MYSQL_PASSWORD}")
+    @Value("${MYSQL_PASSWORD}")
     private String password;
 
     @Bean
